@@ -26,7 +26,7 @@ public class Person {
 
     public boolean useTickets() {
         if (tickets > 0) {
-            tickets --;
+            tickets--;
             return true;
         } else {
             return false;

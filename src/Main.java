@@ -1,17 +1,20 @@
-import java.util.*;
-
 import ru.netology.person.Person;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
 
 public class Main {
 
     public static List<Person> generateClients() {
         List<Person> list = new ArrayList<>();
-        list.add(new Person("Вася","Пупкин", 2));
+        list.add(new Person("Вася", "Пупкин", 2));
         list.add(new Person("Света", "Соколова", 5));
         list.add(new Person("Иван", "Иванов", 3));
         list.add(new Person("Мирон", "Мирный", 1));
-        list.add(new Person("Леди", "Гага",4));
-        return(list);
+        list.add(new Person("Леди", "Гага", 4));
+        return (list);
     }
 
     public static void main(String[] args) {
